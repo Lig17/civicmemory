@@ -3,7 +3,7 @@
 
 CivicMemory is an academic demonstration of a **Multi-Agent System (MAS)** designed for high-stakes urban crisis management. It moves beyond standard RAG by implementing **long-term evolving memory** and **agentic reasoning** with explicit temporal awareness.
 
-## 🧠 Core Architecture
+## Core Architecture
 
 ### 1. Multi-Agent System (MAS)
 The system employs three distinct agents, each with defined responsibilities:
@@ -22,7 +22,7 @@ Every system decision includes:
 - **Evidence Provenance**: Direct links to specific historical reports used to justify an answer.
 - **Confidence Scoring**: Dynamic scoring based on report age and source reliability.
 
-## 🚀 How to Run
+## How to Run
 
 ### Local Development
 1. Clone the repository.
@@ -43,7 +43,7 @@ docker-compose up -d
 ```
 *The `backend/` folder contains the Python implementation for use in a full Dockerized environment.*
 
-## 📁 Project Structure
+## Project Structure
 - `agents/`: Core logic for Ingest, Reasoning, and Coordination.
 - `services/`: API connectors for Gemini and Memory (Qdrant).
 - `components/`: UI layer focused on traceability and visualization.
