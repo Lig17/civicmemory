@@ -1,0 +1,7 @@
+{
+  "name": "CivicMemory: Multi-Agent Flood Monitoring",
+  "description": "A Multi-Agent System (MAS) demonstrating long-term evolving memory with Qdrant and traceable, evidence-grounded decision making for emergency scenarios.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
